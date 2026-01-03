@@ -1,0 +1,131 @@
+.upperpart
+{
+    padding: 30px 50px 40px 50px;
+    background-color: snow;
+    border-radius: 30px;
+    color: lightcoral;
+    text-align: center;
+    margin-bottom: 50px;
+}
+body
+{
+    background-color: lightgray;
+}
+.sub-name,.crhr,.grade
+{
+    /* border: 10px; */
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+   
+}
+.grade{
+    cursor: pointer;
+}
+
+.semester {
+    width: 90%;
+    max-width: 550px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: lightcoral;
+}
+.sgpa
+{
+    padding: 50px 50px;
+    background-color: lightcyan;
+    color: lightcoral;
+    width: 30%;
+    border-radius: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.whole
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   box-sizing: border-box;
+   justify-content: space-between; 
+   gap: 20px;
+}
+.add
+{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(23, 223, 23);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.remove
+{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;   
+    gap: 10px;                
+    align-items: center;
+}
+.add:hover,.remove:hover,.submission:hover
+{
+    transform: scale(1.10);
+}
+.submission
+{
+    padding: 30px 30px;
+    background-color: rgb(2, 255, 2);
+    color: wheat;
+    width: 30%;
+    border-radius: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    .semester {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .sgpa {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .submission {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add, .remove {
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+}
+

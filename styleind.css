@@ -1,0 +1,45 @@
+.upperpart
+{
+    padding: 30px 50px 40px 50px;
+    background-color: snow;
+    border-radius: 30px;
+    color: lightcoral;
+    text-align: center;
+}
+body
+{
+    background-color: lightgray;
+}
+.resgpa,.recgpa,.reinfo
+{
+    color: lightcoral;
+    padding: 30px 30px;
+    background-color: snow;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.resgpa:hover,.recgpa:hover,.reinfo:hover
+{
+    transform: scale(1.10);
+}
+.paragraph
+{
+    color: lightcoral;
+    background-color: snow;
+    border-radius: 20px;
+    padding: 2px;
+}
+.image
+{
+    padding: 2px;
+    background-color: black;
+}

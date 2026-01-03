@@ -1,0 +1,175 @@
+.upperpart
+{
+    padding: 30px 50px 40px 50px;
+    background-color: snow;
+    border-radius: 30px;
+    color: lightcoral;
+    text-align: center;
+    margin-bottom: 50px;
+}
+body
+{
+    background-color: lightgray;   
+}
+
+.sub-name,.crhr,.grade
+{
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+.grade{
+    cursor: pointer;
+}
+
+.semester {
+    width: 90%;
+    max-width: 550px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: lightcoral;
+}
+.whole
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   box-sizing: border-box;
+   justify-content: space-between; 
+   gap: 20px;
+}
+.subadd,.semadd
+{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(23, 223, 23);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.subremove,.semremove
+{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons,.sembuttons
+{
+    display: flex;
+    flex-direction: row;   
+    gap: 10px;                
+    align-items: center;
+    justify-content: center; /* added to center both sub and sem buttons horizontally */
+}
+.onecompsem
+{
+    padding: 10px;
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 550px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+@media (max-width: 400px) {
+    .semester {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .cgpa {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .submission {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subadd, .subremove {
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+}
+.subadd:hover,.subremove:hover,.submission:hover
+{
+    transform: scale(1.10);
+}
+.allsems
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sgpa
+{
+    color: lightcoral;
+    margin-left: 10px;
+}
+
+.sembuttons {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+    margin: 20px 0;          
+}
+.submission
+{
+    padding: 30px 30px;
+    background-color: rgb(2, 255, 2);
+    color: wheat;
+    width: 30%;
+    border-radius: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: none;
+}
+.cgpa
+{
+    padding: 50px 50px;
+    background-color: lightcyan;
+    color: lightcoral;
+    width: 30%;
+    border-radius: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}

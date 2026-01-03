@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="stylesgpa.css">
+</head>
+<body>
+    
+    <div class="upperpart">
+        <h1><u>SGPA Calculator</u></h1>
+    </div>
+    <div class="whole">
+    <div class="semester" id="semester">
+        <h2 class="heading">Semester</h2>
+        <div class="subject">
+            <input class="sub-name" placeholder="Subject Name" type="text">
+            <input class="crhr" placeholder="credit hours" type="number" min="1" value="1">
+            <select class="grade" name="grade1">
+                <option value="">Grade</option>
+                <option value="4.00">A+</option>
+                <option value="4.00">A</option>
+                <option value="3.67">A-</option>
+                <option value="3.33">B+</option>
+                <option value="3.00">B</option>
+                <option value="2.67">B-</option>
+                <option value="2.33">C+</option>
+                <option value="2.00">C</option>
+                <option value="1.67">C-</option>
+                <option value="1.33">D+</option>
+                <option value="1.00">D</option>
+                <option value="0.00">F</option>
+            </select>
+        </div>
+        <div class="subject">
+            <input class="sub-name" placeholder="Subject Name" type="text">
+            <input class="crhr" placeholder="credit hours" type="number" min="1" value="1">
+            <select class="grade" name="grade1">
+                <option value="">Grade</option>
+                <option value="4.00">A+</option>
+                <option value="4.00">A</option>
+                <option value="3.67">A-</option>
+                <option value="3.33">B+</option>
+                <option value="3.00">B</option>
+                <option value="2.67">B-</option>
+                <option value="2.33">C+</option>
+                <option value="2.00">C</option>
+                <option value="1.67">C-</option>
+                <option value="1.33">D+</option>
+                <option value="1.00">D</option>
+                <option value="0.00">F</option>
+            </select>
+        </div>
+        <div class="subject">
+            <input class="sub-name" placeholder="Subject Name" type="text">
+            <input class="crhr" placeholder="credit hours" type="number" min="1" value="1">
+            <select class="grade" name="grade1">
+                <option value="">Grade</option>
+                <option value="4.00">A+</option>
+                <option value="4.00">A</option>
+                <option value="3.67">A-</option>
+                <option value="3.33">B+</option>
+                <option value="3.00">B</option>
+                <option value="2.67">B-</option>
+                <option value="2.33">C+</option>
+                <option value="2.00">C</option>
+                <option value="1.67">C-</option>
+                <option value="1.33">D+</option>
+                <option value="1.00">D</option>
+                <option value="0.00">F</option>
+            </select>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="add" id="add">
+            +
+        </div>
+        <div class="remove" id="remove">
+            x
+        </div>
+    </div>
+    <button id="submission" class="submission">✅Submit</button>
+    <div class="sgpa" id="sgpa">
+        <h2>SGPA:0.00</h2>
+    </div>
+    </div>
+    <script src="scriptsgpa.js"></script>
+</body>
+</html>
