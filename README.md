@@ -53,7 +53,7 @@ A dynamic and user-friendly web application for calculating **GPA, SGPA, and CGP
 
 ## Live Demo
 
-[Live Demo](https://example.com)
+[Live Demo](https://slow-gpa-calculator.vercel.app/)
 
 ---
 
