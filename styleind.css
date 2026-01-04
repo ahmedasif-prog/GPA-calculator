@@ -38,8 +38,20 @@ body
     border-radius: 20px;
     padding: 2px;
 }
-.image
-{
-    padding: 2px;
+
+.image {
+    width: 30px;
+    margin-left: 12px;
+    cursor: pointer;
     background-color: black;
+}
+.image2
+{
+      width: 30px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.image:hover,.image2:hover
+{
+    transform: scale(1.10);
 }
